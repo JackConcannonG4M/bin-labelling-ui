@@ -1,8 +1,8 @@
 export const getLabels = async () => (
     [
-        {id: 1, bin: "B-19", header: "L-10 - S-15", colour: "white", template: "tote-l", location: "standard"},
-        {id: 2, bin: "B80", header: "L-15 S-9", colour: "blue", template: "range", location: "high"},
-        {id: 3, bin: "B-12", header: "L-23 S-17", colour: "red", template: "tote-s", location: "high"},
+        {id: 1, binNumber: "L4-S2-C2-B80", colour: "white", template: "tote-l", location: "standard"},
+        {id: 2, binNumber: "L10-S5-C7-B19", colour: "blue", template: "range", location: "high"},
+        {id: 3, binNumber: "L11-S8-C10-B12", colour: "red", template: "tote-s", location: "high"},
     ]
 );
 

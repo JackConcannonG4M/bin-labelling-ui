@@ -9,9 +9,9 @@ const Label = ({ data, history }) => {
     };
 
     return (
-        <ul className="list-group">
+        <ul className="list-group my-1">
             <li className="list-group-item">
-                {data.bin}
+                {data.binNumber}
                 <button onClick={routeChange} type="button" className="btn btn-info float-right">Edit</button>
             </li>
         </ul>

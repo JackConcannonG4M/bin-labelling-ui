@@ -19,10 +19,10 @@ const LabelList = () => {
     }
 
     return (
-        <div className="container">
-        {labelListData.map(label => (
-            <Label data={label}></Label>
-        ))}
+        <div className="container mt-5">
+           {labelListData.map(label => (
+               <Label data={label} />
+           ))}
         </div>
     );
 };
